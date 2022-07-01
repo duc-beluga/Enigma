@@ -1,13 +1,62 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+#submitDiv {
+    padding-top: 2cm;
+    padding-left: 30%;
+    padding-right: 30%;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+#inputDiv {
+    padding-top: 1cm;
+}
+
+#introHeader {
+    padding-left: 43%;
+    padding-right: 40%;
+    font-family: 'Press Start 2P';
+    font-weight: bold;
+    font-size: xx-large;
+}
+
+.sign-in {
+    text-decoration: none;
+    padding-left: 5%;
+    color: blue;
+}
+
+#outer-container {
+    background-image: url(./firewatch.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.sign-in-input {
+    font-weight: 500;
+}
+
+.sign-up-container {
+    padding-top: 13%;
+    padding-left: 3cm;
+    padding-right: 65%;
+}
+
+.encrypt-input {
+    padding-top: 2%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+#introHeader-container {
+    padding-top: 1%;
+}
+
+#authenticate-input {
+    padding-right: 70%;
+}
+
+#sign-up-button {
+    padding-left: 29.7%;
+}
+
+.sign-up-input {
+    padding-top: 2%;
+    padding-bottom: 2%;
 }
