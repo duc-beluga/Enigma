@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function Toast() {
+export default function Toast(props) {
   return (
     <div className="toast-container position-fixed bottom-0 end-0 p-3">
       <div
@@ -25,7 +25,7 @@ export default function Toast() {
             aria-label="Close"
           ></button>
         </div>
-        <div className="toast-body">Hello, world! This is a toast message.</div>
+        <div className="toast-body">{props.msg}</div>
       </div>
     </div>
   );
